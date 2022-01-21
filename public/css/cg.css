@@ -1,0 +1,22 @@
+.title {
+  margin-bottom: 60px;
+}
+
+.content {
+  color: white;
+  margin: 0% 20%;
+}
+
+.content h4:nth-child(1) {
+  margin-bottom: 16px;
+  margin-top: 0px;
+}
+
+.content h4 {
+  margin-bottom: 16px;
+  margin-top: 60px;
+}
+
+.content p {
+  margin-bottom: 0.625rem;
+}

@@ -1,0 +1,134 @@
+body {
+  background: rgb(22, 22, 22);
+}
+
+/* TITLE ------------------------------------------------------------------ */
+
+.main {
+  padding: 0% 20%;
+}
+
+.title {
+  margin-bottom: 5rem;
+}
+
+.title h1 {
+  text-align: center;
+  color: rgb(51, 121, 226);
+  font-size: 25px;
+  font-weight: 1000;
+  padding-bottom: 2rem;
+  border-bottom: dashed 2px rgb(51, 121, 226);
+}
+
+.title-h1 {
+  -webkit-animation: title-h1 1s ease-in-out infinite alternate;
+  -moz-animation: title-h1 1s ease-in-out infinite alternate;
+  animation: title-h1 1s ease-in-out infinite alternate;
+}
+
+@keyframes title-h1 {
+  from {
+    text-shadow: 0 0 10px #2e65dd, 0 0 20px #000000, 0 0 30px #2e65dd,
+      0 0 40px #2e65dd;
+  }
+  to {
+    text-shadow: 0 0 20px #2e65dd, 0 0 30px #2e65dd, 0 0 40px #2e65dd,
+      0 0 50px #2e65dd;
+  }
+}
+
+/* NAVBAR 1 ------------------------------------------------------------------ */
+
+.navbar-brand {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 0 !important;
+}
+
+.basket {
+  background-color: rgb(89, 148, 236);
+  border-radius: 2rem;
+  text-decoration: none;
+}
+
+.basket span {
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+i {
+  font-size: 25px !important;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+/* NAVBAR 2 ------------------------------------------------------------------ */
+
+.menu {
+  background: rgb(51, 121, 226);
+}
+
+.nav-item {
+  margin-right: 2rem;
+  margin-bottom: 0;
+  position: relative;
+}
+.nav-link {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.nav-item:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  display: block;
+  right: 0;
+  background: #fff;
+  transition: width 0.2s ease;
+  -webkit-transition: width 0.2s ease;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+  left: 0;
+  background: #212529;
+}
+
+.dropdown-item {
+  color: rgba(255, 255, 255, 0.801);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.dropdown-item:hover {
+  background: rgb(51, 121, 226);
+  font-weight: 700;
+}
+
+.dropdown-item:visited {
+  background: rgb(51, 121, 226);
+}
+
+/* FOOTER ------------------------------------------------------------------ */
+
+footer {
+  font-size: 13px;
+}
+
+.f-item {
+  color: white;
+  text-decoration: none;
+}
+
+.f-item:hover {
+  color: rgb(51, 121, 226);
+}
+
+footer div:nth-child(1) {
+  padding-bottom: 5px !important;
+}

@@ -1,0 +1,60 @@
+.table-container {
+  margin: 0px 500px;
+}
+
+@media (max-width: 1700px) {
+  .table-container {
+    margin: 0px 400px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .table-container {
+    margin: 0px 300px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .table-container {
+    margin: 0px 200px;
+  }
+}
+
+@media (max-width: 900px) {
+  .table-container {
+    margin: 0px 100px;
+  }
+}
+
+.table {
+  background: rgb(108, 165, 240);
+  text-align: center;
+  border: 1px solid black;
+}
+
+thead tr {
+  background: rgb(51, 121, 226) !important;
+}
+
+.commande {
+  background: rgb(51, 121, 226) !important;
+  color: white !important;
+  transition: 1s;
+}
+
+.commande:hover {
+  background: rgb(32, 83, 160) !important;
+  transition: 1s;
+}
+
+.commande-link {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+}
+
+.commande-link:hover {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+}

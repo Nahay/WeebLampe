@@ -1,0 +1,75 @@
+/* BOX ------------------------------------------------------------------ */
+.box {
+  width: 400px;
+  padding: 20px 40px 20px 40px;
+  margin-bottom: 10%;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%);
+  background: #191919;
+  box-sizing: content-box;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+  background: none;
+  display: block;
+  margin: 5px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 300px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+  width: 380px;
+  border-color: #dc3545;
+}
+.box input[type="text-id"] {
+  background: none;
+  display: block;
+  margin: 5px auto;
+  text-align: center;
+  border: 2px solid #dc3545;
+  padding: 14px 10px;
+  width: 300px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type="submit"] {
+  background: none;
+  display: block;
+  margin: 30px auto 20px auto;
+  text-align: center;
+  border: 2px solid #dc3545;
+  padding: 14px 40px;
+  outline: none;
+  color: #cdcdcd;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+  background: #dc3545;
+}
+
+.box label {
+  color: #3498db;
+  font-size: 15px;
+}
+
+.box:hover {
+  box-shadow: 0px 0px 12px 12px #3498db;
+  transition: 0.5s;
+}

@@ -1,0 +1,99 @@
+/* TITLE ------------------------------------------------------------------ */
+
+.main {
+  padding: 0% 20%;
+}
+
+.title {
+  margin-bottom: 5rem;
+}
+
+.title h1 {
+  text-align: center;
+  color: rgb(51, 121, 226);
+  font-size: 25px;
+  font-weight: 1000;
+  padding-bottom: 2rem;
+  border-bottom: dashed 2px rgb(51, 121, 226);
+}
+
+.title-h1 {
+  -webkit-animation: title-h1 1s ease-in-out infinite alternate;
+  -moz-animation: title-h1 1s ease-in-out infinite alternate;
+  animation: title-h1 1s ease-in-out infinite alternate;
+}
+
+@keyframes title-h1 {
+  from {
+    text-shadow: 0 0 10px #2e65dd, 0 0 20px #000000, 0 0 30px #2e65dd,
+      0 0 40px #2e65dd;
+  }
+  to {
+    text-shadow: 0 0 20px #2e65dd, 0 0 30px #2e65dd, 0 0 40px #2e65dd,
+      0 0 50px #2e65dd;
+  }
+}
+
+/* SLIDES ------------------------------------------------------------------ */
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+.card {
+  border: none;
+  margin-bottom: 2rem;
+  background-color: rgb(22, 22, 22);
+}
+
+.card:nth-child(1) {
+  margin-top: 23px;
+}
+
+.card img {
+  width: 100%;
+  margin: 10px;
+  position: relative;
+  z-index: 2;
+  border-radius: 7px;
+  height: 400px;
+  transition: 0.4s;
+}
+
+.card:hover:nth-child(1) img {
+  /* in order: x offset, y offset, blur size, spread size, color */
+  box-shadow: 0px 0px 12px 12px #f7f3b4;
+}
+
+.card:hover:nth-child(2) img {
+  box-shadow: 0px 0px 12px 12px rgb(245, 65, 90);
+}
+
+.card:hover:nth-child(3) img {
+  box-shadow: 0px 0px 12px 12px #20b1ee;
+}
+
+.card:hover:nth-child(4) img {
+  box-shadow: 0px 0px 12px 12px #dd68da;
+}
+
+@media (max-width: 1000px) {
+  .card img {
+    height: 350px;
+  }
+}
+
+@media (max-width: 800px) {
+  .card img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 600px) {
+  .card img {
+    height: 200px;
+  }
+}

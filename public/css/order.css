@@ -1,0 +1,123 @@
+/* BOX ------------------------------------------------------------------ */
+.box {
+  width: 600px;
+  margin-top: 5%;
+  padding: 20px 40px 20px 40px;
+  margin: 5% 0 0 -20%;
+  text-align: center;
+  background: #191919;
+  box-sizing: content-box;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+  background: none;
+  display: block;
+  margin: 5px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 400px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+  width: 480px;
+  border-color: #dc3545;
+}
+
+.box input[type="submit"] {
+  background: none;
+  display: block;
+  margin: 30px auto 20px auto;
+  text-align: center;
+  border: 2px solid #dc3545;
+  padding: 14px 40px;
+  outline: none;
+  color: #cdcdcd;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+  background: #dc3545;
+}
+
+.box label {
+  color: #3498db;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.box:hover {
+  box-shadow: 0px 0px 12px 12px #3498db;
+  transition: 0.5s;
+}
+
+/* garbage test ---------------------------------------- */
+.product {
+  padding: 10px 40px 20px 40px;
+  width: 600px;
+  text-align: center;
+  margin: 5% 0 5% 15%;
+  background: #191919;
+  box-sizing: content-box;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.product:hover {
+  box-shadow: 0px 0px 12px 12px #3498db;
+  transition: 0.5s;
+}
+
+.product h1[id="products"] {
+  text-align: center;
+  color: rgb(51, 121, 226);
+  font-size: 20px;
+  font-weight: 1000;
+  padding-bottom: 2rem;
+  border-bottom: solid 2px rgb(51, 121, 226);
+}
+
+.product h1[id="total"] {
+  text-align: center;
+  color: rgb(51, 121, 226);
+  font-size: 18px;
+  font-weight: 1000;
+  padding-top: 2rem;
+  border-top: solid 2px rgb(51, 121, 226);
+}
+
+.product img {
+  border-radius: 10px;
+}
+
+.table-container {
+  margin: 2em 0 2em 0;
+}
+
+.table {
+  text-align: center;
+  border: 1px solid #3498db;
+}
+
+.table td {
+  color: #3498db;
+}
+
+thead tr {
+  background: rgb(51, 121, 226) !important;
+}
+
+@media (max-width: 1200px) {
+  .product {
+    visibility: hidden;
+  }
+}
