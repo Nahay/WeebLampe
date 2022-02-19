@@ -2,6 +2,10 @@ body {
   background: rgb(22, 22, 22);
 }
 
+img[alt="www.000webhost.com"] {
+    display:none !important;
+}
+
 /* TITLE ------------------------------------------------------------------ */
 
 .main {
